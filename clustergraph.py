@@ -21,7 +21,7 @@ while (i < len(files)):
                     )'''
     #trace2 = go.Scatter(x=df['TradeBuilder_Design_Index'], y=df['CGV_CG_Longitudinal_WRT_FrontAxle_in'], mode='styled-scatter', name='Wheel Size' )
     Horizontal = 'Time(sec)'
-    Vertical = 'normalForce'
+    Vertical = 'Time(sec)'
     trace3 = go.Scatter(x=df[Horizontal], y=df[Vertical], mode='markers', marker=dict(
             size='4',
             colorscale='Viridis',
